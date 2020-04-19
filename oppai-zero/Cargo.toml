@@ -1,0 +1,16 @@
+[package]
+name = "oppai-zero"
+version = "0.1.0"
+authors = ["Evgeny Kurnevsky <kurnevsky@gmail.com>"]
+license = "AGPL-3.0+"
+description = "Open Points Artificial Intelligence"
+edition = "2018"
+
+[dependencies]
+pyo3 = "0.9.2"
+indoc = "0.3"
+parking_lot = "0.10"
+decorum = "0.1"
+rand = "0.7"
+rand_xorshift = "0.2"
+oppai-field = { path = "../oppai-field" }
